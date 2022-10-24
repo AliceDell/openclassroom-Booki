@@ -1,0 +1,191 @@
+ 
+    body{
+        padding-left: 32px;
+        padding-right: 32px;
+        }
+        /* HEADER */
+    
+    .Header
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+     
+    
+    }
+    .imgHeader
+    {
+       width: 5%;
+       height: 5%;
+        
+    }
+    
+        /* NavBar */
+    
+    nav ul 
+    {
+        list-style-type: none;
+        display: flex;
+    }
+        nav li 
+        {
+            margin-right: 20px;
+        }
+    nav a
+    {
+        font-size: 1.3em;
+        color: #181818;
+        padding-bottom: 3px;
+        text-decoration: none;
+    }
+    
+        nav a:hover
+        {
+            color: #3D86C9;
+            border-bottom: 3px solid #2879c5;
+        }
+    
+    /*--------*/
+    
+    /* SearchBar text*/
+    
+    .titleSearch
+    {
+        color: #3D86C9;
+        margin-top: 2%;
+        margin-bottom: 0%;
+    }
+    
+    .subtileSearch
+    {
+    margin-top: 0%;
+    font-size: 1.2em;
+    }
+    
+    /*Searchbar */
+    .searchSubmitinput
+    {
+        background-color: #3D86C9;
+        width: 5%;
+        height: 10%;
+        border-radius:30px;
+        border: none;
+        color: white;
+    }
+    .searchFormSearchinput
+    {
+    
+        width: 7%;
+        height: 10%;
+        
+        border: none;
+        color: black;
+        border: 1px gray solid;
+    }
+    
+    /* Hosting*/
+    .hosting
+    {
+        display: flex;
+    }
+        .hostingTitle
+        {
+            color: #3D86C9;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            
+        }
+            .hostingSubtile, .hostingParagraph
+            {
+                margin: 0%;
+                text-align: center;
+            }
+                .hostingSubtile
+                {
+                    color: #3D86C9;
+                    text-align: center;
+                }
+            .hostingImg
+            {
+                border-radius: 1.5rem;
+                height: 9rem;
+            }    
+        .hostingPrefer
+        {
+            background : #f3f3f3;
+            border-radius: 1.5rem;
+            margin-top: 1% ;
+            padding: 2rem;
+            flex-direction: column;
+            display: flex;
+            width: 15%;
+            
+            
+        }
+            .hostingBlock
+            {
+                background-color: white;
+                border-radius: 1rem;
+                grid-row-start: 2;
+                margin: 1rem;
+                width: 80%;
+                
+            }
+    
+    /*  Main Hosting    */
+    .mainHosting
+    {
+        display: block;
+        
+        
+    }
+        .hostingTitle
+        {
+            color: #3D86C9;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            
+            
+        }
+            .mainhostingSubtile, .mainhostingParagraph
+            {
+                margin: 0%;
+                text-align: center;
+            }
+                .mainhostingSubtile
+                {
+                    color: #3D86C9;
+                    text-align: center;
+                }
+            .mainhostingImg
+            {
+                border-radius: 1.5rem;
+                height: 9rem;
+            }    
+    
+        .mainHostingBackground
+        {
+            background : #f3f3f3;
+            border-radius: 1.5rem;
+            margin-top: 1% ;
+            padding: 2rem;
+            width: 50%; 
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;  
+             
+                
+        }    
+            .mainhostingBlock
+            {
+                background-color: white;
+                border-radius: 1rem;
+                grid-row-start: 2;
+                margin: 1rem;
+                width: 25%;
+                
+                
+            }
+    
+    
