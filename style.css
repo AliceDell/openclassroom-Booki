@@ -136,7 +136,7 @@
     /*  Main Hosting    */
     .mainHosting
     {
-        display: block;
+        display: flex;
         
         
     }
