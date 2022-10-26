@@ -1,7 +1,10 @@
- 
+ *{
+    width: 100%;
+ }
     body{
         padding-left: 32px;
         padding-right: 32px;
+        width: auto;
         }
         /* HEADER */
     
@@ -9,7 +12,7 @@
     {
         display: flex;
         flex-direction: row;
-        align-items: flex-end;
+        align-items: center;
         justify-content: space-between;
      
     
@@ -22,15 +25,21 @@
     }
     
         /* NavBar */
-    
+    .navHeader{
+        display: flex;
+        align-items: center;
+        grid-area: navbar;
+    }
     nav ul 
     {
         list-style-type: none;
         display: flex;
+        
     }
         nav li 
         {
-            margin-right: 20px;
+            margin-right: 1%;
+            width: auto;
         }
     nav a
     {
@@ -116,9 +125,9 @@
             }    
         .hostingPrefer
         {
-            background : #f3f3f3;
+            background : #faf7f7;
             border-radius: 1.5rem;
-            margin : 10% ;
+            margin: 2% 15% 2%;
             padding: 2rem;
             flex-direction: row;
             justify-content: center;
@@ -172,16 +181,14 @@
     
         .mainHostingBackground
         {
-            background : #f3f3f3;
+            background : #faf7f7;
             border-radius: 1.5rem;
-            margin-top: 1% ;
+            margin: 2% 15% 2%;
             padding: 2rem;
-            flex-direction: row;
-            justify-content: space-between;
-            width: 50%;
             display: grid;
             column-gap: 2rem;
             row-gap: 2rem;
+            width: auto;
              
                 
         }    
