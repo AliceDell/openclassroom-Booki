@@ -1,6 +1,7 @@
  *{
     width: 100%;
  }
+ 
     body{
         padding-left: 32px;
         padding-right: 32px;
@@ -28,7 +29,7 @@
     .navHeader{
         display: flex;
         align-items: center;
-        grid-area: navbar;
+        
     }
     nav ul 
     {
@@ -102,9 +103,10 @@
         .hostingTitle
         {
             color: #3D86C9;
-            margin: 0;
+            margin: 2%;
             display: flex;
             justify-content: space-between;
+            
             
             
         }
@@ -112,6 +114,8 @@
             {
                 margin: 0%;
                 text-align: center;
+                padding: 2% 5% 2%;
+                width: auto;
             }
                 .hostingSubtile
                 {
@@ -120,13 +124,13 @@
                 }
             .hostingImg
             {
-                border-radius: 1.5rem;
+                border-radius: 10% 10% 0% 0%;
                 height: 15rem;
             }    
         .hostingPrefer
         {
-            background : #faf7f7;
-            margin: 2% 15% 2%;
+            background : #2879c586;
+            margin: 4% 10% 2%;
             padding: 2rem;
             flex-direction: row;
             justify-content: center;
@@ -136,14 +140,15 @@
             width: auto;
             
             
+            
         }
             .hostingBlock
             {
                 background-color: white;
-                border-radius: 1rem;
                 grid-row-start: 2;
                 margin: 1rem;
                 width: 85%;
+                border-radius: 10% 10% 0% 0%;
                 
             }
     
@@ -156,7 +161,7 @@
     }
         .hostingTitle
         {
-            color: #3D86C9;
+            color: #faf7f7;
             padding-top: 1%;
             padding-bottom: 1%;
             
@@ -175,19 +180,22 @@
             .mainhostingImg
             {
                 border-radius: 1.5rem;
-                height: 9rem;
+                height: 15rem;
             }    
     
         .mainHostingBackground
         {
-            background : #faf7f7;
-            border-radius: 1.5rem;
-            margin: 2% 15% 2%;
+            
+            background : #2879c586;
+            margin: 4% 10% 2%;
             padding: 2rem;
+            flex-direction: row;
+            justify-content: center;
             display: grid;
             column-gap: 2rem;
             row-gap: 2rem;
             width: auto;
+            
              
                 
         }    
