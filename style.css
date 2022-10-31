@@ -1,6 +1,6 @@
  *{
     height: auto;
-    width: auto;
+    width: 100%;
  }
     @font-face {
         font-family: "italianno";
@@ -42,6 +42,7 @@
     nav li{
        
         margin-right: 15px;
+        width: auto;
         
     }
       
