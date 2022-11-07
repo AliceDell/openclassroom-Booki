@@ -1,5 +1,5 @@
 # openclassroom
 
-Création du site Booki pour le parcours de développeurs Web en html CSS
+Création du site Booki pour le parcours de développeurs Web en html CSS d'openClassroom
 
-voir l'avancé du site internet sur :  https://alicedell.github.io/openclassroom-Booki/
+voir le site internet sur :  https://alicedell.github.io/openclassroom-Booki/
