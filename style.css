@@ -23,10 +23,6 @@
 
  /*--------------------*/
 
- *{
-    height: auto;
-    width: 100%;
- }
     body{
         padding-left: 32px;
         padding-right: 32px;
@@ -126,16 +122,18 @@
     /* Hosting*/
     .hosting
     {
-        display: flex;
+        display: grid;
+        column-gap: 2rem;
+        grid-template-columns: 6fr 3fr;
         
     }
         .hostingTitle
         {
-            color: #3D86C9;
-            margin: 2%;
+            color: #ffffff;
             display: flex;
             justify-content: space-between;
             font-family:"caviar-i";
+            width: 100%;
             
             
             
@@ -158,18 +156,30 @@
             {
                 border-radius: 10% 10% 0% 0%;
                 height: 15rem;
+            }
+            .rating
+            {
+                margin: 0 0rem 0.25rem 8.75rem;
+            }
+                .star-p
+                {
+                    width: 12px;
+                    align-items: center;
+                }
+                .star-v
+                {
+                width: 12px;
             }    
         .hostingPrefer
         {
             background : #2879c586;
             margin: 4% 10% 2%;
             padding: 2rem;
-            flex-direction: row;
             justify-content: center;
             display: grid;
             column-gap: 2rem;
             row-gap: 2rem;
-            width: auto;
+
             
             
             
@@ -177,72 +187,24 @@
             .hostingBlock
             {
                 background-color: white;
-                grid-row-start: 2;
-                margin: 1rem;
-                width: 85%;
+                justify-content: space-around;
                 border-radius: 10% 10% 0% 0%;
+                flex-basis: 20%;
+                justify-content: space-evenly;
+               row-gap: 2rem;
+                
                 
             }
     
     /*  Main Hosting    */
-    .mainHosting
-    {
-        display: flex;
-        
-        
-    }
-        .hostingTitle
-        {
-            color: #faf7f7;
-            padding-top: 1%;
-            padding-bottom: 1%;
-            font-family:"caviar-i";
-            
-            
-        }
-            .mainhostingSubtile, .mainhostingParagraph
-            {
-                margin: 0%;
-                text-align: center;
-                font-family:"caviar";
-            }
-                .mainhostingSubtile
-                {
-                    color: #3D86C9;
-                    text-align: center;
-                    font-family:"caviar";
-                }
-            .mainhostingImg
-            {
-                border-radius: 1.5rem;
-                height: 15rem;
-            }    
     
-        .mainHostingBackground
-        {
-            
-            background : #2879c586;
+    .mainHosting {
+        background : #2879c586;
             margin: 4% 10% 2%;
             padding: 2rem;
-            flex-direction: row;
-            justify-content: center;
-            display: grid;
-            width: auto;
-            grid-template-columns: 25%, 25%, 25%;
+            flex-wrap: wrap;
+            display: flex;
+           
             
-             
-                
-        }    
-            .mainhostingBlock
-            {
-                background-color: white;
-                grid-row-start: 2;
-                margin: 1rem;
-                width: 85%;
-                border-radius: 10% 10% 0% 0%;
-                
-                
-                
-            }
-    
+    }
     
