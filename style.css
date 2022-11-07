@@ -210,53 +210,46 @@
         justify-content: space-between;
         font-family:"caviar-b";
         width: 100%;
-        margin:4% 10% 2%;
+        
     }
 
     .activitySubtile
     {
         font-family:"caviar-b";
         width: 100%;
-        margin:4% 10% 2%;
+        margin:2% 2% 2%;
+        text-align: center;
         color: #2879c5;
     }
 
     .activity
     {
+       display: grid;
         
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
     }
-
-        .blockActivity
+        .activity-groups
         {
-            box-shadow: 0 0 20px #0000002e;
-            border-radius: 1rem;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            width: 30%;
+            display: grid;
+            column-gap: 2rem;
+            row-gap: 3rem;
+            grid-template-columns: repeat(2, 4fr);
+            justify-content: center;
         }
-            .swimming
+            .blockActivity
             {
-                
+                box-shadow: 0 0 20px #0000002e;
+                border-radius: 1rem;
                 width: 100%;
             }
-
-        .blockActivity2
-        {
-            box-shadow: 0 0 20px #0000002e;
-            border-radius: 1rem;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            width: 30%
-            
-        }
-            .randonnee
-            {
-
-            }
+                .swimming
+                {
+                    
+                    width: 100%;
+                }
+                .randonnee
+                {
+                    width: 100%;
+                }
     /*footer*/
     .footer
     {
