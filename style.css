@@ -1,0 +1,297 @@
+
+
+ /*    Police     */
+    @font-face {
+        font-family: "italianno";
+        src: url(/Police/Italianno-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: "caviar";
+        src: url(/Police/CaviarDreams.ttf);
+    }
+
+    @font-face {
+        font-family: "caviar-b";
+        src: url(/Police/Caviar_Dreams_Bold.ttf);
+    }
+
+    @font-face {
+        font-family: "caviar-i";
+        src: url(/Police/CaviarDreams_Italic.ttf);
+    }
+
+ /*--------------------*/
+
+    body{
+        padding-left: 32px;
+        padding-right: 32px;
+        width: auto;
+        }
+        /* HEADER */
+    
+    .Header
+    {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+       align-items: flex-start;
+       justify-content: space-between;
+  
+    }
+    .imgHeader
+    {
+       width: 5%;
+       height: 5%;
+    }
+    
+        /* NavBar */
+       
+    
+    nav ul 
+    {
+        list-style-type: none;
+        display: flex;
+        width: 100%;
+        
+    }
+    nav li{
+       
+        margin-right: 15px;
+        width: auto;
+        font-family: "caviar-i";
+        
+    }
+      
+    nav a
+    {
+        font-size: 1.3em;
+        color: #181818;
+        padding-bottom: 3px;
+        text-decoration: none;
+ 
+    }
+    
+        nav a:hover
+        {
+            color: #3D86C9;
+            border-bottom: 3px solid #2879c5;
+        }
+    
+    /*--------*/
+    
+    /* SearchBar text*/
+    
+    .titleSearch
+    {
+        color: #3D86C9;
+        margin-top: 2%;
+        margin-bottom: 0%;
+        font-family: 'italianno';
+        font-size: 2.5rem;
+    }
+    
+    .subtileSearch
+    {
+    margin-top: 0%;
+    font-size: 1em;
+    font-family:"caviar-i";
+    }
+    
+    /*Searchbar */
+    .searchSubmitinput
+    {
+        background-color: #3D86C9;
+        width: 10%;
+        border-radius:30px;
+        border: none;
+        color: white;
+    }
+    .searchFormSearchinput
+    {
+    
+        width: 17%;
+        border: none;
+        color: black;
+        border: 1px gray solid;
+    }
+    
+    /* Hosting*/
+    .hosting
+    {
+        display: grid;
+        column-gap: 2rem;
+        grid-template-columns: 6fr 3fr;
+        
+    }
+        .hostingTitle
+        {
+            color: #ffffff;
+            display: flex;
+            justify-content: space-between;
+            font-family:"caviar-i";
+            width: 100%;
+            
+            
+            
+        }
+            .hostingSubtile, .hostingParagraph
+            {
+                margin: 0%;
+                text-align: center;
+                padding: 2% 5% 2%;
+                width: auto;
+                font-family:"caviar";
+            }
+                .hostingSubtile
+                {
+                    color: #3D86C9;
+                    text-align: center;
+                    font-family:"caviar";
+                }
+            .hostingImg
+            {
+                border-radius: 10% 10% 0% 0%;
+                height: 15rem;
+                
+            }
+            .rating
+            {
+                margin: 0 0rem 0.25rem 8.75rem;
+            }
+                .star-p
+                {
+                    width: 12px;
+                    align-items: center;
+                }
+                .star-v
+                {
+                width: 12px;
+            }    
+        .hostingPrefer
+        {
+            background : #2879c586;
+            margin: 4% 10% 2%;
+            padding: 2rem;
+            flex-wrap: wrap;
+            display: flex;
+            box-shadow: 0 0 20px #13589986;
+            
+            
+            
+        }
+            .hostingBlock
+            {
+                background-color: white;
+                margin: 3%;
+                border-radius: 10% 10% 0% 0%;
+                flex-basis: 20%;
+               row-gap: 2rem;
+                
+                
+            }
+    
+    /*  Main Hosting    */
+    
+    .mainHosting {
+        background : #2879c586;
+            margin: 4% 10% 2%;
+            padding: 2rem;
+            flex-wrap: wrap;
+            display: flex;
+            box-shadow: 0 0 20px #13589986;
+           
+            
+    }
+
+    /*  Activity    */
+    .activityTitle
+    {
+        display: flex;
+        justify-content: space-between;
+        font-family:"caviar-b";
+        width: 100%;
+        
+    }
+
+    .activitySubtile
+    {
+        font-family:"caviar-b";
+        width: 100%;
+        margin:2% 2% 2%;
+        text-align: center;
+        color: #2879c5;
+    }
+
+    .activity
+    {
+       display: grid;
+        
+    }
+        .activity-groups
+        {
+            display: grid;
+            column-gap: 2rem;
+            row-gap: 3rem;
+            grid-template-columns: repeat(2, 4fr);
+            justify-content: center;
+        }
+            .blockActivity
+            {
+                box-shadow: 0 0 20px #0000002e;
+                border-radius: 1rem;
+                width: 100%;
+            }
+                .swimming
+                {
+                    
+                    width: 100%;
+                }
+                .randonnee
+                {
+                    width: 100%;
+                }
+    /*footer*/
+    .footer
+    {
+        background-color: #2879c586;
+        width: 100%;
+        
+    }
+        .footerColumnwrapper
+        {
+            display: flex;
+            max-width: 100%;
+            width: 100%;
+            margin: auto;
+            padding: 0 2rem;
+            box-sizing: border-box;
+        }
+            .columnLeft
+            {
+                width: 30%;
+                padding: 2rem 2rem;
+            }
+            .columnCenter
+            {
+                width: 30%;
+                padding: 2rem 2rem;
+            }
+            .columnRight
+            {
+                width: 30%;
+                padding: 2rem 2rem;
+            }
+                h4 
+                {
+                    font-family:"caviar-i";
+                    width: 100%;
+                    color: white;
+                }
+
+                h3
+                {
+                    font-family:"caviar-b";
+                    width: 100%;
+                    color: white;
+                }
