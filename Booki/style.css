@@ -3,22 +3,22 @@
  /*    Police     */
     @font-face {
         font-family: "italianno";
-        src: url(/Police/Italianno-Regular.ttf);
+        src: url(./Police/Italianno-Regular.ttf);
     }
 
     @font-face {
         font-family: "caviar";
-        src: url(/Police/CaviarDreams.ttf);
+        src: url(./Police/CaviarDreams.ttf);
     }
 
     @font-face {
         font-family: "caviar-b";
-        src: url(/Police/Caviar_Dreams_Bold.ttf);
+        src: url(./Police/Caviar_Dreams_Bold.ttf);
     }
 
     @font-face {
         font-family: "caviar-i";
-        src: url(/Police/CaviarDreams_Italic.ttf);
+        src: url(./Police/CaviarDreams_Italic.ttf);
     }
 
  /*--------------------*/
