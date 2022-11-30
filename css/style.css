@@ -1,0 +1,158 @@
+/* Body */
+
+body
+{
+    width: auto;
+}
+
+
+
+
+/* __________Header_____________ */
+
+
+
+
+.header
+    {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items:baseline;
+       justify-content: space-between;
+    }
+        img 
+        {
+            
+            height: 19px;
+            left: 1%;
+            top: 5%;
+        
+            box-sizing: border-box;
+        }
+
+      
+
+
+    /*____________ Navbar________*/
+     
+    
+     nav ul 
+     {
+         list-style-type: none;
+         display: flex;
+     }
+     nav li{
+        
+        margin-right: 15px;
+        width: auto;
+         font-family: 'Raleway', sans-serif;
+
+         
+     }
+       
+     nav a
+     {
+         font-size: 1.3em;
+         color: #181818;
+         padding-bottom: 3px;
+         text-decoration: none;
+  
+     }
+     
+         nav a:hover
+         {
+             color: #0065FC;
+             border-top: 3px solid #0065FC;
+         }
+     
+     /*--------*/
+
+
+     /* ____ Filter ___ */
+
+         .filter
+         {
+            display: flex;
+            flex-direction: row;
+         }
+
+
+     /*___Icônes____ */
+     i
+     {
+         color: #0065FC;
+     }
+    /*---------------*/  
+
+    /* Hosting */
+
+    .hosting
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .hostingmain
+    {
+        background-color: #F2F2F2;
+        width: 48%;
+        border-radius: 8% 8% 8% 8%;
+        padding: auto;
+        height: 626px;
+        left: 0px;
+        top: 0px;
+       
+
+    }
+        h2
+        {
+            padding-left: 42px;
+        }
+
+
+    /*---------------*/ 
+
+     /*_____Footer___*/
+     footer
+     {
+        background-color: #F2F2F2;
+        width: 1339px;
+        height: 225px;
+     }
+     .footerColumnwrapper
+        {
+            display: flex;
+            max-width: 100%;
+            width: 100%;
+            margin: auto;
+            padding: 0 2rem;
+            box-sizing: border-box;
+        }
+            .columnLeft
+            {
+                width: 30%;
+                padding: 2rem 2rem;
+            }
+            .columnCenter
+            {
+                width: 30%;
+                padding: 2rem 2rem;
+            }
+            .columnRight
+            {
+                width: 30%;
+                padding: 2rem 2rem;
+            }
+                h4 
+                {
+                    font-family: 'Raleway', sans-serif;
+                    width: 100%;
+                    color: black;
+                }
+
+                h3
+                {
+                    font-family: 'Raleway', sans-serif;
+                    width: 100%;
+                    color: black;
+                }
