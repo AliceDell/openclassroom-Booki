@@ -5,7 +5,43 @@ body
     width: auto;
 }
 
+/*____________ Navbar________*/
+     
+    
+nav ul 
+{
+    list-style-type: none;
+    display: flex;
+    padding-right: 77px;
+    text-align: center;
+    
+}
+nav li{
+   
+   margin-right: 15px;
+   width: auto;
+   font-family: 'Raleway', sans-serif;
 
+    
+}
+  
+nav a
+{
+    font-size: 16px;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+    
+    
+}
+
+    nav a:hover
+    {
+        color: #0065FC;
+        border-top: 3px solid #0065FC;
+    }
+
+/*--------*/
 
 
 /* __________Header_____________ */
@@ -16,57 +52,53 @@ body
 .header
     {
         display: flex;
-        position: relative;
-        flex-direction: row;
         align-items:baseline;
        justify-content: space-between;
     }
-        img 
+        .logo 
         {
             
             height: 19px;
-            left: 1%;
-            top: 5%;
-        
-            box-sizing: border-box;
+            margin-left: 55px;
+           
         }
 
+        h1
+        {
+            
+            font-size: 22px;
+        }
       
 
+        .text-header
+        {
+            font-family: 'Raleway', sans-serif;
+            padding-left: 55px;
+            padding-bottom: 20px;
+        }
 
-    /*____________ Navbar________*/
-     
+
+
+     /*_____Searchbar_____ */
+    .searchSubmitinput
+    {
+        background-color: #3D86C9;
+        width: 132px;
+        height: 49px;
+        border-radius: 0px 15px 15px 0px;
+        border: none;
+        color: white;
+    }
+    .searchFormSearchinput
+    {
     
-     nav ul 
-     {
-         list-style-type: none;
-         display: flex;
-     }
-     nav li{
-        
-        margin-right: 15px;
-        width: auto;
-         font-family: 'Raleway', sans-serif;
-
-         
-     }
-       
-     nav a
-     {
-         font-size: 1.3em;
-         color: #181818;
-         padding-bottom: 3px;
-         text-decoration: none;
-  
-     }
-     
-         nav a:hover
-         {
-             color: #0065FC;
-             border-top: 3px solid #0065FC;
-         }
-     
-     /*--------*/
+        width: 332px;
+        height: 49px;
+        border-radius: 15px;
+        border: 1px gray solid;
+        margin-left: 55px;
+    }
+    /*__________________________*/
 
 
      /* ____ Filter ___ */
@@ -75,13 +107,28 @@ body
          {
             display: flex;
             flex-direction: row;
+            width: 25%;
+            padding-left: 62px;
+        
+            
          }
+            .button-filter
+            {
+                border-style: solid grey 2px;
+                display: flex;
+                justify-content: space-around;
+               
+            }
 
 
      /*___Icônes____ */
      i
      {
          color: #0065FC;
+     }
+     .fa-duotone fa-star
+     {
+        color: #F2F2F2;
      }
     /*---------------*/  
 
@@ -95,20 +142,37 @@ body
     .hostingmain
     {
         background-color: #F2F2F2;
-        width: 48%;
+        width: 65%;
         border-radius: 8% 8% 8% 8%;
-        padding: auto;
         height: 626px;
-        left: 0px;
-        top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
        
 
     }
         h2
         {
             padding-left: 42px;
+            width: 100%;
         }
 
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            border-radius: 20px;
+            background-color: white;
+            width: 246px;
+            height: 199px;
+          }
+          
+          /* Add rounded corners to the top left and the top right corner of the image */
+          .img-card {
+            border-radius: 20px 20px 0px 0px;
+            width: 246px;
+            height: 124px;
+          }
 
     /*---------------*/ 
 
