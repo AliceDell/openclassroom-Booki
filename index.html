@@ -13,8 +13,8 @@
         <img class = "logo" src="/Images/logo/Booki.png" alt="logo booki">
             <nav>
                 <ul>
-                    <li><a href="#">hébergements</a></li>
-                    <li><a href="#">Activités</a></li>
+                    <li><a href="#hosting">hébergements</a></li>
+                    <li><a href="#activity">Activités</a></li>
                 </ul>
             </nav>
     </header>
@@ -24,8 +24,9 @@
 		</div>	
 
 		<form class="searchForm" action="" method="GET">
-			<span class="searchFormIcon">
-			</span>
+			<div class="searchFormIcon">
+				<i class="fa-solid fa-location-dot"></i>
+			</div>
 			<input class="searchFormSearchinput" type="search" placeholder="Marseille, France" size="1">
 			<button class="searchSubmitinput">
 			  <span class="searchSubmitinputText">Rechercher</span>
@@ -43,72 +44,177 @@
 		<p class="button-filter"><i class="fa-solid fa-dog"></i> Animaux autorisés</p> 
     </div>    
 
-		<p>Plus de 500 logements sont disponibles dans cette ville</p>
+		<p class="paragraph"><div class="logo-i"><i class="fa-solid fa-info"></i></div> Plus de 500 logements sont disponibles dans cette ville</p>
     <main>
-        <section class="hosting">
+        <section class="hosting" id="hosting">
 			<div class="hostingmain">
             	<h2>hébergements à marseille</h2>
 
-				<div class="card">
+				<div class="card"><a href ="#">
 					<img class ="img-card" src="/Images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="chambre avec double lit" style="width:100%">
 					<div class="container">
-					  <h4><b>Auberge La Canebière</b></h4>
-					  <p>Nuit à partir de 25€</p>
-					  <p><i class="fa-sharp fa-solid fa-star"></i>
-						<i class="fa-sharp fa-solid fa-star"></i>
-						<i class="fa-sharp fa-solid fa-star"></i>
-						<i class="fa-sharp fa-solid fa-star"></i>
-						<i class="fa-duotone fa-star"></i></p>
+					  <h4 class="hostingSubtile">Auberge La Canebière</h4>
+					  <p class="hostingParagraph">Nuit à partir de 25€</p>
+					  	<div class = "rating">
+					  			<i class="fa-sharp fa-solid fa-star"></i>
+								<i class="fa-sharp fa-solid fa-star"></i>
+								<i class="fa-sharp fa-solid fa-star"></i>
+								<i class="fa-sharp fa-solid fa-star"></i>
+								<i class="fa-sharp fa-solid fa-star"></i>
+						</div>		
 					</div>
-				</div>
+				</div></a>
 
-				<div class="card">
-					<img class ="img-card" src="/Images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="chambre avec double lit" style="width:100%">
+				<div class="card"><a href ="#">
+					<img class ="img-card" src="/Images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="chambre avec 2 lit simple" style="width:100%">
 					<div class="container">
-					  <h4><b>Auberge La Canebière</b></h4>
-					  <p>Nuit à partir de 25€</p>
+					  <h4 class="hostingSubtile">Hôtel du port</h4>
+					  <p class="hostingParagraph">Nuit à partir de 52€</p>
+					  	<div class = "rating">
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+			  			</div>
 					</div>
-				</div>
+				</div></a>
 
-				<div class="card">
-					<img class ="img-card" src="/Images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="chambre avec double lit" style="width:100%">
+				<div class="card"><a href ="#">
+					<img class ="img-card" src="/Images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="chambre avec un grand lit et une grande armoire" style="width:100%">
 					<div class="container">
-					  <h4><b>Auberge La Canebière</b></h4>
-					  <p>Nuit à partir de 25€</p>
+					  <h4 class="hostingSubtile">hôtel les mouettes</h4>
+					  <p class="hostingParagraph">Nuit à partir de 76€</p>
+						<div class = "rating">
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+			  			</div>
 					</div>
-				</div>
+				</div></a>
 
-				<div class="card">
-					<img class ="img-card" src="/Images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="chambre avec double lit" style="width:100%">
+				<div class="card"><a href ="#">
+					<img class ="img-card" src="/Images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="chambre avec double lit" style="width:100%">
 					<div class="container">
-					  <h4><b>Auberge La Canebière</b></h4>
-					  <p>Nuit à partir de 25€</p>
+					  <h4 class="hostingSubtile">hôtel de la mer</h4>
+					  <p class="hostingParagraph">Nuit à partir de 46€</p>
+						<div class = "rating">
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+						</div>
 					</div>
-				</div>
+				</div></a>
 
-				<div class="card">
+				<div class="card"><a href ="#">
 					<img class ="img-card" src="/Images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="chambre avec double lit" style="width:100%">
 					<div class="container">
-					  <h4><b>Auberge La Canebière</b></h4>
-					  <p>Nuit à partir de 25€</p>
-					  
+					  <h4 class="hostingSubtile">Auberge Le Panier></h4>
+					  <p class="hostingParagraph">Nuit à partir de 23€</p>
+						<div class = "rating">
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+						</div>
 					</div>
-				</div>
+				</div></a>
 
-				<div class="card">
+				<div class="card"><a href ="#">
 					<img class ="img-card" src="/Images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="chambre avec double lit" style="width:100%">
 					<div class="container">
-					  <h4><b>Auberge La Canebière</b></h4>
-					  <p>Nuit à partir de 25€</p>
+					  <h4 class="hostingSubtile">Hôtel Chez Amira</h4>
+					  <p class="hostingParagraph">Nuit à partir de 96€</p>
+						<div class = "rating">
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+						</div>
 					</div>
-				</div>
+				</div></a>
 				
-
+				<p class="paragraphEnd"> Aficher plus</p>
 			</div>
         
-			<aside>
-				<h2>les plus populaires <i class="fa-solid fa-chart-line"></i></h2> 
+			<aside class="popularHosting">
+				<h2 class="titlePopular">les plus populaires <i class="fa-solid fa-chart-line"></i></h2> 
+
+				<div class="cardPopular"><a href ="#">
+					<img class ="img-cardPopular" src="/Images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="chambre avec double lit" style="width:100%">
+					<div class="containerPopular">
+					  <h4 class="hostingSubtile">Hôtel Chez Amira</h4>
+					  <p class="hostingParagraph">Nuit à partir de 96€</p>
+						<div class = "rating">
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+						</div>
+					</div>
+				</div></a>
+
+				<div class="cardPopular" ><a href ="#">
+					<img class ="img-cardPopular" src="/Images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="chambre avec double lit" style="width:100%">
+					<div class="containerPopular">
+					  <h4 class="hostingSubtile">Hôtel Chez Amira</h4>
+					  <p class="hostingParagraph">Nuit à partir de 96€</p>
+						<div class = "rating">
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+						</div>
+					</div>
+				</div></a>
+
+				<div class="cardPopular"><a href ="#">
+					<img class ="img-cardPopular" src="/Images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="chambre avec double lit" style="width:100%">
+					<div class="containerPopular">
+					  <h4 class="hostingSubtile">Hôtel Chez Amira</h4>
+					  <p class="hostingParagraph">Nuit à partir de 96€</p>
+						<div class = "rating">
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+							<i class="fa-sharp fa-solid fa-star"></i>
+						</div>
+					</div>
+				</div></a>
+
+
 			</aside>
+		</section>
+
+		<section class="activity" id="activity">
+			<h2 class="activityTitle">Activités à Marseille</h2>
+			<div class="activity-groups">
+				<article class="blockActivity">
+				   <img class="imgActivity" src="/Images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="image du vieux-port">
+				   <p class = "activitySubtile">Vieux-port</p>
+				</article>
+				<article class="blockActivity">
+				   <img class="imgActivity" src="/Images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="image du Fort de Pomègues">
+				   <p class = "activitySubtile">Fort de Pomègues</p>
+				</article>  
+				<article class="blockActivity">
+				   <img class="imgActivity" src="/Images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="image du Parc national des Calanques">
+				   <p class = "activitySubtile">Parc national des Calanques</p>
+				</article>
+				<article class="blockActivity">
+				   <img class="imgActivity" src="/Images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="image de Notre-Dame-de-la-Garde">
+				   <p class = "activitySubtile">Notre-Dame-de-la-Garde</p>
+				</article>
+			 </div>    
 		</section>
 		
 
