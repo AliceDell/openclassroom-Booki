@@ -1,52 +1,57 @@
+*
+{
+margin: Opx;
+padding: 0px;
 
+}
 /* Body */
 
 body
 {
-    width: auto;
+width: auto;
 }
 
 /*____________ Navbar________*/
-     
-    
+
+
 nav ul 
 {
-    list-style-type: none;
-    display: flex;
-    padding-right: 77px;
-    text-align: center;
-    
+list-style-type: none;
+display: flex;
+padding-right: 77px;
+text-align: center;
+
 }
 nav li{
-   
-   margin-right: 15px;
-   width: auto;
-   font-family: 'Raleway', sans-serif;
 
-    
+margin-right: 15px;
+width: auto;
+font-family: 'Raleway', sans-serif;
+
+
 }
-  
+
 nav a
 {
-    font-size: 16px;
-    color: #181818;
-    padding-bottom: 3px;
-    text-decoration: none;
-    
-    
+font-size: 16px;
+color: #181818;
+padding-bottom: 3px;
+text-decoration: none;
+
+
 }
 
-    nav a:hover
-    {
-        color: #0065FC;
-        border-top: 3px solid #0065FC;
-    }
+nav a:hover
+{
+color: #0065FC;
+border-top: 3px solid #0065FC;
+}
 
-    a
-    {
-        text-decoration: none;
-        color: black;
-    }
+a
+{
+text-decoration: none;
+color: black;
+}
 /*--------*/
 
 
@@ -56,339 +61,420 @@ nav a
 
 
 .header
-    {
-        display: flex;
-        align-items:baseline;
-       justify-content: space-between;
-    }
-        .logo 
-        {
-            
-            height: 19px;
-            margin-left: 55px;
-           
-        }
+{
+display: flex;
+align-items:baseline;
+justify-content: space-between;
+}
+.logo 
+{
 
-            h1
-            {
-                
-                font-size: 22px;
-            }
-        
+height: 19px;
+margin-left: 55px;
 
-                .text-header
-                {
-                    font-family: 'Raleway', sans-serif;
-                    padding-left: 55px;
-                    padding-bottom: 20px;
-                }
-                    .paragraph
-                    {
-                        display: flex;
-                        flex-direction: row;
-                    
-                    }
+}
+
+h1
+{
+
+font-size: 22px;
+}
 
 
-     /*_____Searchbar_____ */
-    .searchSubmitinput
-    {
-        background-color: #0065FC;
-        width: 132px;
-        height: 49px;
-        border-radius: 0px 15px 15px 0px;
-        border: none;
-        color: white;
-        margin-left: -52px;
-    }
-    .searchFormSearchinput
-    {
-    
-        width: 332px;
-        height: 49px;
-        border: 1px #d9D9D9 solid;
-        
-    }
-        input::placeholder {
-            color: black;
-            font-size: 18px;
-            padding-left: 15px;
-        }
-
-        .searchFormIcon
-        {
-            background-color: #d9D9D9;
-            height: 49px;
-            width: 50px;
-            margin-left: 55px;
-            border-radius: 15px 0px 0px 15px;
-            
-        
-        }
-            .searchForm
-            {
-                display: flex;
-                flex-direction: row;
-            }
-    /*__________________________*/
-
-
-     /* ____ Filter ___ */
-
-         .filter
-         {
-            display: flex;
-            flex-direction: row;
-            width: 30%;
-            padding-left: 62px;
-            
-        
-            
-         }
-            .button-filter
-            {
-                border: solid #d9D9D9 2px;
-                border-radius: 15px 15px 15px 15px;
-                display: flex;
-                justify-content: space-around;
-                
-               
-            }
-
-
-     /*___Icônes____ */
-     i
-     {
-         color: #0065FC;
-         
-
-     }
-     
-    .fa-info:before
-    {
-        padding-left: 6px;
-    }
-        .logo-i
-        {
-            border: solid 2px grey;
-            border-radius: 50%;
-            width: 18px;
-            justify-content: center;
-        }
-
-     .fa-location-dot:before,.fa-map-marker-alt:before
-     {
-        padding-left: 20px;
-        color: black;
-     }
-     
-    /*---------------*/  
-
-    /* Hosting */
-
-    .hosting
+.text-header
+{
+    font-family: 'Raleway', sans-serif;
+    padding-left: 55px;
+    padding-bottom: 20px;
+}
+    .paragraph
     {
         display: flex;
         flex-direction: row;
+        text-align: center;
+        margin-top: 54px;
+        margin-bottom: 39px;
+
+    
     }
-        .hostingmain
+
+
+/*_____Searchbar_____ */
+.searchSubmitinput
+{
+background-color: #0065FC;
+width: 132px;
+height: 49px;
+border-radius: 0px 15px 15px 0px;
+border: none;
+color: white;
+margin-left: -52px;
+font-weight: bold;
+}
+.searchSubmitinput:hover
+{
+background-color: #DEEBFF;
+color: black;
+font-weight: bold;
+}
+.searchFormSearchinput
+{
+
+width: 332px;
+height: 49px;
+border: 1px #d9D9D9 solid;
+
+}
+input::placeholder {
+    color: black;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+    .searchFormIcon
+    {
+        background-color: #d9D9D9;
+        height: 49px;
+        width: 50px;
+        margin-left: 55px;
+        border-radius: 15px 0px 0px 15px;
+        align-items: center;
+        display: flex;
+    
+    }
+        .searchForm
         {
-            background-color: #F2F2F2;
-            width: 65%;
-            border-radius: 20px;
-            height: 626px;
             display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            margin-left: 50px;
-
+            flex-direction: row;
         }
-            h2
-            {
-                padding-left: 42px;
-                width: 100%;
-                font-family: 'Raleway', sans-serif;
-                font-size: 22px;
-            }
-
-                .card {
-                    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-                    transition: 0.3s;
-                    border-radius: 20px;
-                    background-color: white;
-                    width: 246px;
-                    height: 199px;
-                }
-          
-
-                    .img-card {
-                        border-radius: 20px 20px 0px 0px;
-                        width: 246px;
-                        height: 124px;
-                    }
-
-                        .paragraphEnd
-                        {
-                            width: 100%;
-                            font-family: 'Raleway', sans-serif;
-                            padding-left: 44px;
-                            font-weight: bold;
-                        }
-                            .hostingSubtile
-                            {
-                                font-weight: bold;
-                                padding-left: 16px;
-                            }
-                                .hostingSubtile , .hostingParagraph
-                                {
-                                    margin: 0%;
-                                    padding-left: 16px;
-                                    width: auto;
-                                }
-                                .rating
-                                {
-                                    padding-left: 16px;
-                                    padding-top: 9px;
-                                }
-
-    /*_________________________________*/ 
+/*__________________________*/
 
 
+/* ____ Filter ___ */
 
-     /*___________Popular hosting*____________*/     
+.filter
+{
+display: flex;
+flex-direction: row;
+width: 100%;
+padding-left: 62px;
+align-content: baseline;
 
-      .popularHosting
-      {
-        background-color: #F2F2F2;
-        width: 420px;
-        height: 625px;
-        margin-left: 40px;
-        border-radius: 20px;
-      }
-        .titlePopular
-        {
-            font-family: 'Raleway', sans-serif;
-           
-        }
-            .cardPopular {
-                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-                justify-content: space-around;
-                border-radius: 20px;
-                background-color: white;
-                width: 343px;
-                height: 144px;
-                padding-left: 37px;
-                
-            }
+}  
+.filterSubtile
+{
+font-size: 18px;
+width: 54px;
+margin-right: 52px;
+margin-top: 46px;
+}
+
+
+.button-filter
+{
+border: solid #d9D9D9 2px;
+border-radius: 25PX;
+display: flex;
+height: 36px;
+font-family: "raleway";
+padding-top: 10px;
+padding-right: 10px;
+margin-top: 36px;
+margin-right: 20px;
+
+
+}
+.button-filter:hover 
+{
+    background-color: #DEEBFF;
+}
     
 
-                .img-cardPopular {
-                    border-radius: 20px 0px 0px 20px;
-                        height: 137px;
-                        
-                    }
+
+/*___Icônes____ */
+i
+{
+color: #0065FC;
+
+
+}
+
+.fa-info:before
+{
+padding-left: 1px;
+}
+.logo-i
+{
+border: solid 2px grey;
+border-radius: 50%;
+width: 18px;
+margin-left: 59px;
+margin-right: 11px;
+}
+
+.fa-location-dot:before,.fa-map-marker-alt:before
+{
+padding-left: 20px;
+color: black;
+}
+
+.fa-money-bill-wave:before 
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+    .fa-male:before, .fa-person:before 
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+        .fa-heart:before
+        {
+            padding-left: 10px;
+            padding-right: 10px; 
+        }
+            .fa-dog:before 
+            {
+                padding-left: 10px;
+                padding-right: 10px;   
+            
+            }
+
+            .fa-chart-line:before, .fa-line-chart:before  
+            {
+                padding-left: 118px;
+            }
+
+            .gris-stars
+            {
+                color: #d9D9D9;
                 
-                   
-    /*_________________________________*/ 
-
-          /*  Activity    */
-    .activityTitle
-    {
-        display: flex;
-        justify-content: space-between;
-        font-family:'Raleway', sans-serif;;
-        width: 100%;
-        font-size: 22px;
-        font-weight: bold;
-        
-    }
-
-    .activitySubtile
-    {
-        font-family:'Raleway', sans-serif;;
-        width: 100%;
-        margin:2% 2% 2%;
-        text-align: center;
-        font-size: 16px;
-        font-weight: bold;
-        
-    }
-
-    .activity
-    {
-       display: grid;
-        
-    }
-        .activity-groups
-        {
-            display: grid;
-            column-gap: 2rem;
-            row-gap: 3rem;
-            grid-template-columns: repeat(2, 4fr);
-            justify-content: center;
-        }
-            .blockActivity
-            {
-                box-shadow: 0 0 20px #0000002e;
-                border-radius: 1rem;
-                width: 100%;
             }
-                .imgActivity
-                {
-                    
-                    width: 302px;
-                    height: 444.51px;
-                }
-                     
+/*---------------*/
+
+/* Hosting */
+
+.hosting
+{
+display: flex;
+flex-direction: row;
+}
+.hostingmain
+{
+background-color: #F2F2F2;
+width: 70%;
+border-radius: 20px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-left: 50px;
+
+}
+h2
+{
+padding-left: 42px;
+width: 100%;
+font-family: 'Raleway', sans-serif;
+font-size: 22px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+    background-color: white;
+    width: 25%;
+    height: 199px;
+    padding: 5px;
+}
 
 
+    .img-card {
+        border-radius: 15px 15px 0px 0px;
+        width: 246px;
+        height: 124px;
+    }
 
-
-
-
-
-     /*_____Footer___*/
-     footer
-     {
-        background-color: #F2F2F2;
-        width: 1339px;
-        height: 225px;
-        margin-left: 48px;
-     }
-     .footerColumnwrapper
+        .paragraphEnd
         {
-            display: flex;
-            max-width: 100%;
             width: 100%;
-            margin: auto;
-            padding: 0 2rem;
-            box-sizing: border-box;
+            font-family: 'Raleway', sans-serif;
+            padding-left: 44px;
+            font-weight: bold;
         }
-            .columnLeft
+            .hostingSubtile
             {
-                width: 30%;
-                padding: 2rem 2rem;
+                font-weight: bold;
+                padding-left: 16px;
             }
-            .columnCenter
-            {
-                width: 30%;
-                padding: 2rem 2rem;
-            }
-            .columnRight
-            {
-                width: 30%;
-                padding: 2rem 2rem;
-            }
-                h4 
+                .hostingSubtile , .hostingParagraph
                 {
-                    font-family: 'Raleway', sans-serif;
-                    width: 100%;
-                    color: black;
+                    margin: 0%;
+                    padding-left: 16px;
+                    width: auto;
+                }
+                .rating
+                {
+                    padding-left: 16px;
+                    padding-top: 9px;
                 }
 
-                h3
-                {
-                    font-family: 'Raleway', sans-serif;
-                    width: 100%;
-                    color: black;
-                }
+/*_________________________________*/ 
+
+
+
+/*___________Popular hosting*____________*/     
+
+.popularHosting
+{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+background-color: #F2F2F2;
+width: 30%;
+height: 625px;
+margin-left: 40px;
+border-radius: 20px;
+margin-right: 40px;
+padding-left: 15px;
+padding-right: 15px;
+}
+.titlePopular
+{
+font-family: 'Raleway', sans-serif;
+
+}
+.cardPopular {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+border-radius: 20px;
+background-color: white;
+width: 97%;
+height: 144px;
+flex-direction: row;
+display: flex;
+justify-content: space-between ;
+padding:5px;
+
+}
+
+
+.img-cardPopular {
+    border-radius: 15px 0px 0px 15px;
+        height: 144px;
+    }
+.containerPopular
+{
+    width: 60%;
+}
+.blockimg
+{
+    width: 40%;
+}   
+/*_________________________________*/ 
+
+/*  Activity    */
+.activityTitle
+{
+
+font-family:'Raleway', sans-serif;
+width: 100%;
+font-size: 22px;
+font-weight: bold;
+margin-top: 60px;
+margin-bottom: 18.47px;
+
+}
+
+.activitySubtile
+{
+font-family:'Raleway', sans-serif;;
+width: 100%;
+margin:2% 2% 2%;
+text-align: center;
+font-size: 16px;
+font-weight: bold;
+
+}
+
+.activity
+{
+display: flex;
+flex-wrap: wrap;
+
+}
+.activity-groups
+{
+display: flex;
+justify-content: center;
+}
+.blockActivity
+{
+box-shadow: 0 0 20px #0000002e;
+border-radius: 1rem;
+width: 84%;
+margin-left: 50px;
+margin-bottom: 61px;
+}
+.imgActivity
+{
+    
+    width: 302px;
+    height: 444.51px;
+    border-radius: 20px 20px 0px 0px;
+}
+        
+
+
+/*_____Footer___*/
+footer
+{
+background-color: #F2F2F2;
+width: 90%;
+margin-left: 48px;
+margin-right: 53px;
+
+
+}
+.footerColumnwrapper
+{
+display: flex;
+width: 100%;
+justify-content: space-around;
+}
+.columnLeft
+{
+width: 23%;
+padding: 2rem 2rem;
+}
+.columnCenter
+{
+width: 23%;
+padding: 2rem 2rem;
+}
+.columnRight
+{
+width: 23%;
+padding: 2rem 2rem;
+}
+h4 
+{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    color: black;
+}
+
+h3
+{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    color: black;
+}
+.footerTitle
+{
+    font-size: 18px;
+}
+.footerSubtile
+{
+    font-size: 16px;
+    font-weight: normal;
+}
