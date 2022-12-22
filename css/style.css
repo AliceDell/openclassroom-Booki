@@ -1,14 +1,10 @@
-*
-{
-margin: Opx;
-padding: 0px;
 
-}
 /* Body */
 
-body
+.container
 {
-width: auto;
+    max-width: 1400px;
+    margin:auto;
 }
 
 /*____________ Navbar________*/
@@ -45,6 +41,7 @@ nav a:hover
 {
 color: #0065FC;
 border-top: 3px solid #0065FC;
+padding-top: 17px;
 }
 
 a
@@ -70,7 +67,6 @@ justify-content: space-between;
 {
 
 height: 19px;
-margin-left: 55px;
 
 }
 
@@ -84,7 +80,6 @@ font-size: 22px;
 .text-header
 {
     font-family: 'Raleway', sans-serif;
-    padding-left: 55px;
     padding-bottom: 20px;
 }
     .paragraph
@@ -94,7 +89,7 @@ font-size: 22px;
         text-align: center;
         margin-top: 54px;
         margin-bottom: 39px;
-
+        font-family: 'Raleway', sans-serif;
     
     }
 
@@ -136,7 +131,6 @@ input::placeholder {
         background-color: #d9D9D9;
         height: 49px;
         width: 50px;
-        margin-left: 55px;
         border-radius: 15px 0px 0px 15px;
         align-items: center;
         display: flex;
@@ -157,7 +151,7 @@ input::placeholder {
 display: flex;
 flex-direction: row;
 width: 100%;
-padding-left: 62px;
+
 align-content: baseline;
 
 }  
@@ -175,10 +169,11 @@ margin-top: 46px;
 border: solid #d9D9D9 2px;
 border-radius: 25PX;
 display: flex;
-height: 36px;
+height: 26px;
 font-family: "raleway";
 padding-top: 10px;
 padding-right: 10px;
+vertical-align: middle;
 margin-top: 36px;
 margin-right: 20px;
 
@@ -208,7 +203,6 @@ padding-left: 1px;
 border: solid 2px grey;
 border-radius: 50%;
 width: 18px;
-margin-left: 59px;
 margin-right: 11px;
 }
 
@@ -226,30 +220,30 @@ color: black;
 
     .fa-male:before, .fa-person:before 
     {
-        padding-left: 10px;
-        padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     }
-        .fa-heart:before
-        {
-            padding-left: 10px;
-            padding-right: 10px; 
-        }
-            .fa-dog:before 
-            {
-                padding-left: 10px;
-                padding-right: 10px;   
-            
-            }
+    .fa-heart:before
+    {
+    padding-left: 10px;
+    padding-right: 10px; 
+    }
+    .fa-dog:before 
+    {
+        padding-left: 10px;
+        padding-right: 10px;   
 
-            .fa-chart-line:before, .fa-line-chart:before  
-            {
-                padding-left: 118px;
-            }
+    }
 
-            .gris-stars
-            {
-                color: #d9D9D9;
-                
+    .fa-chart-line:before, .fa-line-chart:before  
+    {
+        padding-left: 196px;
+    }
+
+    .gris-stars
+    {
+        color: #d9D9D9;
+        
             }
 /*---------------*/
 
@@ -259,6 +253,8 @@ color: black;
 {
 display: flex;
 flex-direction: row;
+gap: 3%;
+justify-content: space-between;
 }
 .hostingmain
 {
@@ -268,7 +264,7 @@ border-radius: 20px;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
-margin-left: 50px;
+
 
 }
 h2
@@ -291,8 +287,9 @@ font-size: 22px;
 
     .img-card {
         border-radius: 15px 15px 0px 0px;
-        width: 246px;
+        width: 100%;
         height: 124px;
+        object-fit: cover;
     }
 
         .paragraphEnd
@@ -312,6 +309,7 @@ font-size: 22px;
                     margin: 0%;
                     padding-left: 16px;
                     width: auto;
+                    font-family: 'Raleway', sans-serif;
                 }
                 .rating
                 {
@@ -331,19 +329,35 @@ display: flex;
 flex-direction: column;
 justify-content: space-around;
 background-color: #F2F2F2;
-width: 30%;
+width: auto;
 height: 625px;
-margin-left: 40px;
 border-radius: 20px;
-margin-right: 40px;
-padding-left: 15px;
-padding-right: 15px;
+padding-left: 30px;
+padding-right: 30px;
 }
 .titlePopular
 {
 font-family: 'Raleway', sans-serif;
+padding-left: 0%;
 
 }
+
+.hostingSubtilep
+{
+font-weight: bold;
+padding-left: 16px;
+padding-top: 16px;
+}
+
+.hostingSubtilep , .hostingParagraphp
+{
+margin: 0%;
+padding-left: 16px;
+padding-bottom: 7px;
+width: auto;
+font-family: 'Raleway', sans-serif;
+}
+
 .cardPopular {
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 border-radius: 20px;
@@ -355,6 +369,16 @@ display: flex;
 justify-content: space-between ;
 padding:5px;
 
+}
+.rating-popular
+{
+    padding-left: 16px;
+    padding-top: 53px;
+}
+.rating-popular-2
+{
+    padding-left: 16px;
+    padding-top: 31px;
 }
 
 
@@ -382,6 +406,7 @@ font-size: 22px;
 font-weight: bold;
 margin-top: 60px;
 margin-bottom: 18.47px;
+padding-left: 0%;
 
 }
 
@@ -405,22 +430,23 @@ flex-wrap: wrap;
 .activity-groups
 {
 display: flex;
-justify-content: center;
+justify-content: space-between;
+gap: 3%;
 }
 .blockActivity
 {
 box-shadow: 0 0 20px #0000002e;
 border-radius: 1rem;
-width: 84%;
-margin-left: 50px;
+width: 25%;
 margin-bottom: 61px;
 }
 .imgActivity
 {
     
-    width: 302px;
+    width: 100%;
     height: 444.51px;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
         
 
@@ -429,9 +455,8 @@ margin-bottom: 61px;
 footer
 {
 background-color: #F2F2F2;
-width: 90%;
-margin-left: 48px;
-margin-right: 53px;
+width: 100%;
+
 
 
 }
@@ -444,17 +469,17 @@ justify-content: space-around;
 .columnLeft
 {
 width: 23%;
-padding: 2rem 2rem;
+
 }
 .columnCenter
 {
 width: 23%;
-padding: 2rem 2rem;
+
 }
 .columnRight
 {
 width: 23%;
-padding: 2rem 2rem;
+
 }
 h4 
 {
@@ -477,4 +502,18 @@ h3
 {
     font-size: 16px;
     font-weight: normal;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+nav a:hover
+{
+    color: #0065FC;
+    border-bottom: 3px solid #0065FC;
+    border-top: none;
+}
+
+
 }
