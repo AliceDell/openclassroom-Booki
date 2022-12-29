@@ -544,8 +544,53 @@ nav a:hover
     width: 100%;
 }
 /* Popular*/
+.popularHosting
+{
+    width: 100%;
+    flex-direction: none;
+}
+.cardPopular
+{
+width: 100%;
+}
+.titlePopular
+{
+    flex-direction: column;
+}
 
 
+/*  Activity */
+.activity-groups{
+    flex-direction: column;
+    width: 100%;
+}
+.blockActivity
+{
+    width: 100%;
+}
+/*  footer */
+.footerColumnwrapper
+{
+    flex-direction: column;
+    width: 100%;
+}
+.columnCenter
+{
+    width: 100%;
+    padding-left: 10%;
+}
+.columnLeft
+{
+    width: 100%;
+    padding-left: 10%;
+    
+}
+.columnRight
+{
+    width: 100%;
+    padding-left: 10%;
+  
+}
 }
 
 /* For tablette */
@@ -556,16 +601,27 @@ nav a:hover
     .titlePopular 
     {
        width: 100%;
+       padding-left: 1%;
+       padding-bottom: 3%;
        
     }
- .rating-popular, .rating-popular-2
+    .fa-chart-line:before, .fa-line-chart:before 
+    {
+        padding-left: 525px;
+    }
+ .rating-popular
  {
     padding-top: 23PX;
+ }
+ .rating-popular-2
+ {
+    padding-top: 3PX;
  }
  .cardPopular
  {
     width: 30%;
-    height: 146px;
+   
+    margin-bottom: 5%;
  }
 
  .popularHosting
@@ -602,6 +658,12 @@ flex-wrap: wrap;
     justify-content: space-around;
     flex-wrap: wrap;
  }   
+
+ /* Activity */
+
+ .imgActivity{
+    height: 187.51px;
+ }
 
 
     }
