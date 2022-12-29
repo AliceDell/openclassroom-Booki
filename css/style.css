@@ -533,6 +533,11 @@ nav a:hover
 
 
 /* hostin */
+.hosting
+{
+    width: 100%;
+    flex-direction: column;
+}
 
 .hostingmain
 {
@@ -546,8 +551,10 @@ nav a:hover
 /* Popular*/
 .popularHosting
 {
-    width: 100%;
-    flex-direction: none;
+    width: 100%; 
+    order: -2;
+    justify-content: space-around;
+    padding-left: 15px;
 }
 .cardPopular
 {
@@ -594,7 +601,7 @@ width: 100%;
 }
 
 /* For tablette */
-@media only screen and (max-width: 992px)  {
+@media only screen and (min-width: 769px) and (max-width: 992px)  {
 
     /* hosting popular */
 
