@@ -250,6 +250,11 @@ color: black;
         color: #d9D9D9;
         
             }
+
+    .fa-magnifying-glass
+    {
+        display: none;
+    }         
 /*---------------*/
 
 /* Hosting */
@@ -510,29 +515,89 @@ h3
     font-weight: normal;
 }
 
-/* créer deux classe pour les filtres voir 3 un pour le titre un pour les deux premier boutons et un pour les deux derniers*/
+
  /* For mobile phones: */
 @media only screen and (max-width: 768px) {
 
+    /* Navigation*/
 nav a:hover
 {
     color: #0065FC;
     border-bottom: 3px solid #0065FC;
+    padding-bottom: 15px;
     border-top: none;
 }
+nav{
+    width: 100%;
+}
+nav ul
+{
+   
+    justify-content: center;
+    padding-right: 0px;   
+}
 
+nav a {
+    width: 100%;
+}
+.logo
+{
+    padding: 0px 39% 0 45%;
+}
+/*----------------------------*/
 .container 
 {
     max-width: 768px;
-        margin: 2%;
+        margin: 3%;
 }
 .filter
 {
     flex-wrap: wrap;
 }
 
+a
+{
+    width: 50%;
+}
+.button-filter
+{
+    justify-content: CENTER;
+}
 
-/* hostin */
+.filterSubtile
+{
+    width: 100%;
+}
+.header
+{
+    flex-direction: column;
+}
+.text-header{
+    padding-left: 8%;
+}
+
+.searchForm
+{
+    padding-left: 8%;
+}
+.searchSubmitinputText
+{
+    display: none;
+}
+
+.searchSubmitinput
+{
+    width : 63px;
+    
+}
+
+/*icone*/
+.fa-magnifying-glass
+{
+    display: initial;
+    color: white;
+}
+/* hosting */
 .hosting
 {
     width: 100%;
@@ -547,25 +612,35 @@ nav a:hover
 .card
 {
     width: 100%;
+    MARGIN-bottom: 3%;
 }
 /* Popular*/
 .popularHosting
 {
     width: 100%; 
     order: -2;
-    justify-content: space-around;
-    padding-left: 15px;
+    
+    padding: 0%;
+  
 }
 .cardPopular
 {
-width: 100%;
+width: 80%;
+display: flex;
+justify-content:center;
+margin-left: 10%;
+margin-right: 10%;
 }
 .titlePopular
 {
     flex-direction: column;
+    margin-left: 10%;
+    width: 50%;
 }
-
-
+.fa-chart-line:before, .fa-line-chart:before
+{
+    padding-left: 619%;
+}
 /*  Activity */
 .activity-groups{
     flex-direction: column;
@@ -575,6 +650,11 @@ width: 100%;
 {
     width: 100%;
 }
+
+.imgActivity
+{
+    height: 212px;
+}
 /*  footer */
 .footerColumnwrapper
 {
@@ -583,18 +663,18 @@ width: 100%;
 }
 .columnCenter
 {
-    width: 100%;
+    width: 35%;
     padding-left: 10%;
 }
 .columnLeft
 {
-    width: 100%;
+    width: 35%;
     padding-left: 10%;
     
 }
 .columnRight
 {
-    width: 100%;
+    width: 35%;
     padding-left: 10%;
   
 }
