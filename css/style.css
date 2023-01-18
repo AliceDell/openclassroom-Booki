@@ -647,8 +647,15 @@ a
     flex-direction: column;
 }
 .text-header{
-    padding-left: 8%;
+    padding-left: 5%;
 }
+ .title-header{
+    font-size: 14px;
+    text-align:left
+ }
+ .subtitle-header{
+    font-size: 13px;
+ }
 
 .searchForm
 {
@@ -746,18 +753,18 @@ justify-content:center;
 }
 .columnCenter
 {
-    width: 35%;
+    width: 90%;
     padding-left: 10%;
 }
 .columnLeft
 {
-    width: 35%;
+    width: 90%;
     padding-left: 10%;
     
 }
 .columnRight
 {
-    width: 35%;
+    width: 90%;
     padding-left: 10%;
   
 }
