@@ -423,9 +423,10 @@ padding-left: 0%;
 font-family:'Raleway', sans-serif;;
 width: 100%;
 margin:2% 2% 2%;
-text-align: center;
+text-align: left;
 font-size: 16px;
 font-weight: bold;
+padding-left: 15px;
 
 }
 
@@ -641,6 +642,7 @@ a
 .filterSubtile
 {
     width: 100%;
+    padding-left: 18px;
 }
 .header
 {
@@ -650,8 +652,8 @@ a
     padding-left: 5%;
 }
  .title-header{
-    font-size: 14px;
-    text-align:left
+    font-size: 16px;
+    width: 85%;
  }
  .subtitle-header{
     font-size: 13px;
@@ -659,7 +661,7 @@ a
 
 .searchForm
 {
-    padding-left: 8%;
+    padding-left: 5%;
 }
 .searchSubmitinputText
 {
@@ -683,6 +685,11 @@ a
 {
     width: 10%;
     padding-top :2%;
+}
+
+.fa-location-dot:before, .fa-map-marker-alt:before 
+{
+    padding-left: 14px;
 }
 /* hosting */
 .hosting
